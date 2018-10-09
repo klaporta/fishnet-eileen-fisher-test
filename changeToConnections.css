@@ -37,3 +37,8 @@
     color: #000;
     border-left: 4px solid #000 !important;
 }
+
+/* Change font to Trade Gothic*/
+.lotusliveui, lotusliveui30, .scloud3 {
+    font: normal .75em/1.5 "Trade Gothic" !important;
+}
