@@ -23,9 +23,6 @@
     display: none !important;
 }
 
-/*.lotusui30 a, .lotusui30 a:visited{
-    color: #464646 !important;
-}*/
 .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
     background: #000 !important;
 }
@@ -46,9 +43,65 @@
 .lotusliveui, lotusliveui30, .scloud3 {
     font: normal .75em/1.5 "Trade Gothic" !important;
 }
+.lotusui30 .lotusTitleBar2 .lotusHeading, .lotusui30 .lotusTitleBar2 .lotusHeading a, .lotusui30 div.lotusTitleBar h2{
+   font-family: "Trade Gothic" !important;
+}
 
-/* change link color*/
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+    font-family: "Trade Gothic" !important;
+}
+.lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
+    font-family: "Trade Gothic" !important;
+}
+.lotusui30 .lotusMeta{
+    font-size: 1.1em;
+}
+.filesDnDTitle{
+    font-family: "Trade Gothic";
+    font-size: 2.0em;
+}
+.filesDnDDesc{
+    font-family: "Trade Gothic";
+    font-size: 1.45em;
+}
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+     font-family: "Trade Gothic";
+}
+.lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
+    font-family: "Trade Gothic";
+}
+
+/* change link or box color to black*/
 
 .lotusui30 a, .lotusui30 a:visited {
     color: #86827e !important;
 }
+
+.lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
+        border-bottom: 4px solid #000 !important;
+}
+.lotusui30 .lotusTabs li.lotusSelected {
+        border-bottom: 2px solid #000 !important;
+}
+.lotusui30 .lotusTabContainer{
+    border-bottom: 1px solid #000;
+}
+.lotusui30 .lotusMain span.lotusBtn a{
+        color: #000 !important;
+        box-shadow: 0 0 0 1px #000 inset !important;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs{
+    border-bottom: 1px solid #000 !important;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab{
+    border-bottom: 2px solid #9a1b1f !important;
+}
+.lotusui30 .lotusPlaceBar .lotusBtn{
+    background: #000;
+    font-family: "Trade Gothic";
+    font-size: 1.2em;
+}
+.lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
+    border-left: 4px solid #000 !important;
+}
+
