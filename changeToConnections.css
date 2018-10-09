@@ -46,3 +46,9 @@
 .lotusliveui, lotusliveui30, .scloud3 {
     font: normal .75em/1.5 "Trade Gothic" !important;
 }
+
+/* change link color*/
+
+.lotusui30 a, .lotusui30 a:visited {
+    color: #86827e !important;
+}
