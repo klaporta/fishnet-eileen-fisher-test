@@ -46,3 +46,13 @@
 .lotusliveui, lotusliveui30, .scloud3 {
     font: normal .75em/1.5 "Trade Gothic" !important;
 }
+
+/*font heading*/
+.lotusui30 .lotusTitleBar2 .lotusHeading, .lotusui30 .lotusTitleBar2 .lotusHeading a, .lotusui30 div.lotusTitleBar h2{
+    font-family: "Trade Gothic" !important;
+}
+
+.lotusui30 .lotusTitleBar .lotusHeading a, .lotusui30 .lotusTitleBar2 .lotusHeading a {
+    font-size: 1.3em;
+}
+    
