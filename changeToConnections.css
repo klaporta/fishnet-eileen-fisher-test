@@ -21,3 +21,7 @@
 /*.lotusui30 a, .lotusui30 a:visited{
     color: #464646 !important;
 }*/
+
+lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+    background: #000 !important;
+}
