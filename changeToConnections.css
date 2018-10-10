@@ -35,7 +35,7 @@
     background-color: transparent;
     border-top: none;
     border-bottom: none;
-    color: #000;
+    color: #000 !important;
     border-left: 4px solid #000 !important;
 }
 
@@ -54,21 +54,21 @@
     font-family: "Trade Gothic" !important;
 }
 .lotusui30 .lotusMeta{
-    font-size: 1.1em;
+    font-size: 1.1em !important;
 }
 .filesDnDTitle{
-    font-family: "Trade Gothic";
-    font-size: 2.0em;
+    font-family: "Trade Gothic" !important;
+    font-size: 2.0em !important;
 }
 .filesDnDDesc{
-    font-family: "Trade Gothic";
-    font-size: 1.45em;
+    font-family: "Trade Gothic" !important;
+    font-size: 1.45em !important;
 }
 .lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
-     font-family: "Trade Gothic";
+     font-family: "Trade Gothic" !important;
 }
 .lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
-    font-family: "Trade Gothic";
+    font-family: "Trade Gothic" !important;
 }
 
 /* change link or box color to black*/
@@ -76,7 +76,6 @@
 .lotusui30 a, .lotusui30 a:visited {
     color: #86827e !important;
 }
-
 .lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
         border-bottom: 4px solid #000 !important;
 }
@@ -84,7 +83,7 @@
         border-bottom: 2px solid #000 !important;
 }
 .lotusui30 .lotusTabContainer{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000 !important;
 }
 .lotusui30 .lotusMain span.lotusBtn a{
         color: #000 !important;
@@ -97,11 +96,24 @@
     border-bottom: 2px solid #9a1b1f !important;
 }
 .lotusui30 .lotusPlaceBar .lotusBtn{
-    background: #000;
-    font-family: "Trade Gothic";
-    font-size: 1.2em;
+    background: #000 !important;
+    font-family: "Trade Gothic" !important;
+    font-size: 1.2em !important;
 }
 .lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
     border-left: 4px solid #000 !important;
 }
+.lotusui30 .lotusPaging .lotusInlinelist li{
+    border-color: #fff !important;
+}
+a#imFollowing, a#statusUpdates, a#discover{
+    color:#fff !important;
+    font-size: 1.2em !important;
+}
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
+    background: #fff !important;
+}
 
+.lotusStream .lotusWidgetBody#activityStreamMain .stream-finMiddle{
+    float:none !important;
+}
