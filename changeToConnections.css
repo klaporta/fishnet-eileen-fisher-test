@@ -106,7 +106,7 @@
 .lotusui30 .lotusPaging .lotusInlinelist li{
     border-color: #fff !important;
 }
-a#imFollowing, a#statusUpdates, a#discover{
+a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#actionRequired, a#saved{
     color:#fff !important;
     font-size: 1.2em !important;
 }
