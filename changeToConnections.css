@@ -70,6 +70,9 @@
 .lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
     font-family: "Trade Gothic" !important;
 }
+.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a{
+    font-size: 14px !important;
+}
 .lotusHeader .shareSome-desc{
     font-family: "Trade Gothic" !important; 
     
@@ -112,11 +115,16 @@ a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#a
     font-size: 1.2em !important;
 }
 .lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
-    background: #fff !important;
+    background: none !important;
 }
 
 .lotusStream .lotusWidgetBody#activityStreamMain .stream-finMiddle{
     float:none !important;
+}
+
+/* hide arrow for active selection */
+.otherActivityStream14{
+    display: none !important;
 }
     
 /* Hide Meetings on Home Page */
