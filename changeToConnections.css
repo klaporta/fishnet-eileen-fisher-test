@@ -70,9 +70,10 @@
 .lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
     font-family: "Trade Gothic" !important;
 }
-
+.lotusHeader .shareSome-desc{
+    font-family: "Trade Gothic" !important; 
+    
 /* change link or box color to black*/
-
 .lotusui30 a, .lotusui30 a:visited {
     color: #86827e !important;
 }
@@ -117,3 +118,8 @@ a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#a
 .lotusStream .lotusWidgetBody#activityStreamMain .stream-finMiddle{
     float:none !important;
 }
+    
+/* Hide Meetings on Home Page */
+  div#9f2e5225-e599-4d43-acb8-ddd871c35ea8_container.lotusSection2.homepage-widget{
+    display:none !important;
+    }
