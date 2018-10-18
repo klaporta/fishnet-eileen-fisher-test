@@ -70,9 +70,9 @@
     font-family: "Trade Gothic" !important;
     font-size: 1.45em !important;
 }
-.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+/*.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
      font-family: "Trade Gothic" !important;
-}
+}*/
 .lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
     font-family: "Trade Gothic" !important;
 }
@@ -84,14 +84,14 @@
     
 /* change link or box color to black*/
 .lotusui30 a, .lotusui30 a:visited {
-    color: #726e6b !important;
+    color: #86827e !important;
 }
-.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
+/*.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
     text-decoration: none !important;
     color: #9a1b1f !important;
-}
+}*/
 .lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
-        border-bottom: 4px solid #9a1b1f !important;
+        border-bottom: 4px solid #000 !important;
 }
 .lotusui30 .lotusTabs li.lotusSelected {
         border-bottom: 2px solid #000 !important;
@@ -114,9 +114,9 @@
     font-family: "Trade Gothic" !important;
     font-size: 1.2em !important;
 }
-.lotusui30 .lotusSort, .lotusui30 .lotusPaging{
+/*.lotusui30 .lotusSort, .lotusui30 .lotusPaging{
     font-size: 1.1em !important;
-}
+}*/
 .lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
     border-left: 4px solid #000 !important;
 }
@@ -127,16 +127,15 @@ a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#a
     color:#fff !important;
     font-size: 1.2em !important;
 }
-.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
+/*.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
     background: none !important;
-}
+}*/
 
 .lotusStream .lotusWidgetBody#activityStreamMain .stream-finMiddle{
     float:none !important;
 }
 
 /* hide arrow for active selection */
-.otherActivityStream14{
+/*.otherActivityStream14{
     display: none !important;
-}
-   
+}*/
