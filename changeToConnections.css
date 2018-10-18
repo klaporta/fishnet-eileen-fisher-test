@@ -18,6 +18,12 @@
     outline: 1px solid #eee !important;
   }
 
+/*Hide Font and Size dropdown in text editor */
+ span#cke_14.cke_combo.cke_combo__font.cke_combo_off, span#cke_15.cke_combo.cke_combo__fontsize.cke_combo_off, 
+ span#cke_13.cke_combo.cke_combo__font.cke_combo_off, span#cke_14.cke_combo.cke_combo__fontsize.cke_combo_off{
+     display: none !important;
+}
+
 /* Hide the top header of the business card */
 .personMenu .topActionHolder{
     display: none !important;
@@ -78,10 +84,14 @@
     
 /* change link or box color to black*/
 .lotusui30 a, .lotusui30 a:visited {
-    color: #86827e !important;
+    color: #726e6b !important;
+}
+.lotusui30 a:active, .lotusui30 a:focus, .lotusui30 a:hover{
+    text-decoration: none !important;
+    color: #9a1b1f !important;
 }
 .lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
-        border-bottom: 4px solid #000 !important;
+        border-bottom: 4px solid #9a1b1f !important;
 }
 .lotusui30 .lotusTabs li.lotusSelected {
         border-bottom: 2px solid #000 !important;
@@ -103,6 +113,9 @@
     background: #000 !important;
     font-family: "Trade Gothic" !important;
     font-size: 1.2em !important;
+}
+.lotusui30 .lotusSort, .lotusui30 .lotusPaging{
+    font-size: 1.1em !important;
 }
 .lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
     border-left: 4px solid #000 !important;
@@ -126,8 +139,4 @@ a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#a
 .otherActivityStream14{
     display: none !important;
 }
-    
-/* Hide Meetings on Home Page */
-  div#9f2e5225-e599-4d43-acb8-ddd871c35ea8_container.lotusSection2.homepage-widget{
-    display:none !important;
-    }
+   
