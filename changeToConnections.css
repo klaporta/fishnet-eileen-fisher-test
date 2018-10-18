@@ -3,6 +3,11 @@
     background-color: #fff !important;
     }
 
+/*change the nav bar to black*/
+.ics-scbanner{
+    background-color: black !important;
+}
+
 /*change search box */
 .search-history-view-ui .lotusui30 .icSearchPaneButton .icSearchIcon svg {
     fill: #000 !important;
@@ -18,10 +23,6 @@
     display: none !important;
 }
 
-/*.lotusui30 a, .lotusui30 a:visited{
-    color: #464646 !important;
-}*/
-
 .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
     background: #000 !important;
 }
@@ -34,7 +35,7 @@
     background-color: transparent;
     border-top: none;
     border-bottom: none;
-    color: #000;
+    color: #000 !important;
     border-left: 4px solid #000 !important;
 }
 
@@ -42,3 +43,91 @@
 .lotusliveui, lotusliveui30, .scloud3 {
     font: normal .75em/1.5 "Trade Gothic" !important;
 }
+.lotusui30 .lotusTitleBar2 .lotusHeading, .lotusui30 .lotusTitleBar2 .lotusHeading a, .lotusui30 div.lotusTitleBar h2{
+   font-family: "Trade Gothic" !important;
+}
+
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+    font-family: "Trade Gothic" !important;
+}
+.lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
+    font-family: "Trade Gothic" !important;
+}
+.lotusui30 .lotusMeta{
+    font-size: 1.1em !important;
+}
+.filesDnDTitle{
+    font-family: "Trade Gothic" !important;
+    font-size: 2.0em !important;
+}
+.filesDnDDesc{
+    font-family: "Trade Gothic" !important;
+    font-size: 1.45em !important;
+}
+.lotusui30 .dijitTitlePaneTitle, .lotusui30 .lotusSection h2, .lotusui30 .lotusWidget h2, .lotusui30 .lotusWidget2 h2{
+     font-family: "Trade Gothic" !important;
+}
+.lotusui30 .lotusMeta, .lotusui30 .lotusWidget2 .lotusTable h4{
+    font-family: "Trade Gothic" !important;
+}
+.lotusui30 .lotusContent .lotusStream #activityStreamMain.lotusWidgetBody .lotusPagingTop.lotusPaging ul.lotusInlinelist li a{
+    font-size: 14px !important;
+}
+.lotusHeader .shareSome-desc{
+    font-family: "Trade Gothic" !important; 
+    
+/* change link or box color to black*/
+.lotusui30 a, .lotusui30 a:visited {
+    color: #86827e !important;
+}
+.lotusui30 .tabNavBar .lotusTabs li.lotusSelected{
+        border-bottom: 4px solid #000 !important;
+}
+.lotusui30 .lotusTabs li.lotusSelected {
+        border-bottom: 2px solid #000 !important;
+}
+.lotusui30 .lotusTabContainer{
+    border-bottom: 1px solid #000 !important;
+}
+.lotusui30 .lotusMain span.lotusBtn a{
+        color: #000 !important;
+        box-shadow: 0 0 0 1px #000 inset !important;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs{
+    border-bottom: 1px solid #000 !important;
+}
+.lotusui30 .lotusTitleBar2 .lotusNavTabs li.lotusSelected .lotusTab{
+    border-bottom: 2px solid #9a1b1f !important;
+}
+.lotusui30 .lotusPlaceBar .lotusBtn{
+    background: #000 !important;
+    font-family: "Trade Gothic" !important;
+    font-size: 1.2em !important;
+}
+.lconnFiles .lotusui30 .lotusMenu div[class~=lotusSelected]{
+    border-left: 4px solid #000 !important;
+}
+.lotusui30 .lotusPaging .lotusInlinelist li{
+    border-color: #fff !important;
+}
+a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#actionRequired, a#saved{
+    color:#fff !important;
+    font-size: 1.2em !important;
+}
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight{
+    background: none !important;
+}
+
+.lotusStream .lotusWidgetBody#activityStreamMain .stream-finMiddle{
+    float:none !important;
+}
+
+/* hide arrow for active selection */
+.otherActivityStream14{
+    display: none !important;
+}
+    
+/* Hide Meetings on Home Page */
+  div#9f2e5225-e599-4d43-acb8-ddd871c35ea8_container.lotusSection2.homepage-widget{
+    display:none !important;
+    }
