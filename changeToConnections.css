@@ -138,3 +138,7 @@ a#imFollowing, a#statusUpdates, a#discover, a#atMentions, a#forme, a#fromme, a#a
 .otherActivityStream14{
     display: none !important;
 }
+    
+.lotusui30 .lotusMenu li a:hoverZ{
+    color:#9a1b1f !important;
+    }
